@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 var dwn = document.getElementById('btndownload')
-canvas.width= 1024;
-canvas.height= 1024;
+canvas.width= 1668;
+canvas.height= 1123;
 
 document.getElementById("canvas").style.display = "none"; // after
 document.getElementById("preview").style.display = "none"; // after
@@ -27,7 +27,7 @@ function setImage() {
     image.src = "bg1.jpg";
 
     image.onload = function() {
-        context.drawImage(image, 0, 0, 1024, 1024);
+        context.drawImage(image, 0, 0, 1668, 1123);
  
         context.font= '35px Almarai';
         context.fillStyle= '#4A5456';
