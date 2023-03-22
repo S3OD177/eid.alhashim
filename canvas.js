@@ -34,7 +34,7 @@ function setImage() {
         context.textAlign= 'center';
      
         context.moveTo(0,canvas.height/2);
-        context.fillText(document.getElementById("txtName").value, 500, 900);
+        context.fillText(document.getElementById("txtName").value, 600, 800);
  
         var dataURL = canvas.toDataURL("image/jpg", 1.0);
         var a = document.createElement("a");
