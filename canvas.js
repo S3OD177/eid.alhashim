@@ -30,7 +30,7 @@ function setImage() {
         context.drawImage(image, 0, 0, 1668, 1123);
  
         context.font= '35px Almarai';
-        context.fillStyle= '#4A5456';
+        context.fillStyle= '#b69208';
         context.textAlign= 'center';
      
         context.moveTo(0,canvas.height/2);
