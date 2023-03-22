@@ -38,7 +38,7 @@ function setImage() {
  
         var dataURL = canvas.toDataURL("image/jpg", 1.0);
         var a = document.createElement("a");
-        a.download = "EE.jpg";
+        a.download = "Eid.jpg";
         a.href = dataURL;
         // simulate a click on the anchor element
         a.click();
